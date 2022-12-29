@@ -1,0 +1,12 @@
+#vim find_and_delete.sh
+#chmod +x find_and_delete.sh
+(add bellow lines in find_and_delete.sh this file)
+----------------------------------------------------
+
+#!/bin/bash
+echo -n "Enter filename ->"
+read name
+rm -i $name
+(save & exit)
+------------------------------------------------------
+#./find_and_delete.sh
